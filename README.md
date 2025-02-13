@@ -1,5 +1,5 @@
 # swiftui_sample
-macOS SwiftUI demonstration project (showcases SwiftUI and RESTful API).
+iOS/macOS SwiftUI demonstration project (showcases SwiftUI and RESTful API).
 
 ![Screenshot 2025-02-13 at 6 07 07 PM](https://github.com/user-attachments/assets/0e49f732-9422-415e-805e-7b4640b7b77e)
 
