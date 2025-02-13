@@ -1,5 +1,13 @@
 # swiftui_sample
-macOS SwiftUI demonstration project for job application purposes.
+macOS SwiftUI demonstration project (showcases SwiftUI and RESTful API).
+
+![Screenshot 2025-02-13 at 6 07 07 PM](https://github.com/user-attachments/assets/0e49f732-9422-415e-805e-7b4640b7b77e)
+
+![Screenshot 2025-02-13 at 6 06 50 PM](https://github.com/user-attachments/assets/2a975d57-9444-4f32-bdf9-6c8e49998761)
+
+![Screenshot 2025-02-13 at 6 08 30 PM](https://github.com/user-attachments/assets/1eb3a617-6a9b-4c19-bcd9-1fb59a5cc06f)
+
+
 
 1. Steps to Run
 
