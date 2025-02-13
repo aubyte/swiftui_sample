@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8AEE57B42B66A9D300BFDC8B /* TakeHomeExerciseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEE57B32B66A9D300BFDC8B /* TakeHomeExerciseApp.swift */; };
+		8AEE57B62B66A9D300BFDC8B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEE57B52B66A9D300BFDC8B /* MainView.swift */; };
+		8AEE57B82B66A9D400BFDC8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AEE57B72B66A9D400BFDC8B /* Assets.xcassets */; };
+		8AEE57BB2B66A9D400BFDC8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AEE57BA2B66A9D400BFDC8B /* Preview Assets.xcassets */; };
+		8AEE57C42B66ABEE00BFDC8B /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEE57C32B66ABEE00BFDC8B /* SignInView.swift */; };
+		8AEE57C72B66AE7900BFDC8B /* UserContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEE57C62B66AE7900BFDC8B /* UserContext.swift */; };
+		8AEE57C92B66AF8300BFDC8B /* MeetingContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEE57C82B66AF8300BFDC8B /* MeetingContext.swift */; };
+		8AEE57CC2B66B62900BFDC8B /* AircoverAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEE57CB2B66B62900BFDC8B /* AircoverAPI.swift */; };
+		8AEE57CF2B68195000BFDC8B /* Resources-Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEE57CE2B68195000BFDC8B /* Resources-Main.swift */; };
+		8AEE57D12B68197000BFDC8B /* Resources-Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEE57D02B68197000BFDC8B /* Resources-Login.swift */; };
+		8AEE57D32B687F5900BFDC8B /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEE57D22B687F5900BFDC8B /* MeetingView.swift */; };
+		8AEE57D52B699A8500BFDC8B /* MeetingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEE57D42B699A8500BFDC8B /* MeetingListView.swift */; };
+		8AEE57D72B69A36A00BFDC8B /* MeetingDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEE57D62B69A36A00BFDC8B /* MeetingDetailsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8AEE57B02B66A9D300BFDC8B /* TakeHomeExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeHomeExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AEE57B32B66A9D300BFDC8B /* TakeHomeExerciseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeHomeExerciseApp.swift; sourceTree = "<group>"; };
+		8AEE57B52B66A9D300BFDC8B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8AEE57B72B66A9D400BFDC8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8AEE57BA2B66A9D400BFDC8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8AEE57C32B66ABEE00BFDC8B /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		8AEE57C62B66AE7900BFDC8B /* UserContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserContext.swift; sourceTree = "<group>"; };
+		8AEE57C82B66AF8300BFDC8B /* MeetingContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingContext.swift; sourceTree = "<group>"; };
+		8AEE57CB2B66B62900BFDC8B /* AircoverAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AircoverAPI.swift; sourceTree = "<group>"; };
+		8AEE57CE2B68195000BFDC8B /* Resources-Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Resources-Main.swift"; sourceTree = "<group>"; };
+		8AEE57D02B68197000BFDC8B /* Resources-Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Resources-Login.swift"; sourceTree = "<group>"; };
+		8AEE57D22B687F5900BFDC8B /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
+		8AEE57D42B699A8500BFDC8B /* MeetingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingListView.swift; sourceTree = "<group>"; };
+		8AEE57D62B69A36A00BFDC8B /* MeetingDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingDetailsView.swift; sourceTree = "<group>"; };
+		8AEE57D82B69C8E500BFDC8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AEE57AD2B66A9D300BFDC8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AEE57A72B66A9D300BFDC8B = {
+			isa = PBXGroup;
+			children = (
+				8AEE57B22B66A9D300BFDC8B /* TakeHomeExercise */,
+				8AEE57B12B66A9D300BFDC8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8AEE57B12B66A9D300BFDC8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8AEE57B02B66A9D300BFDC8B /* TakeHomeExercise.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8AEE57B22B66A9D300BFDC8B /* TakeHomeExercise */ = {
+			isa = PBXGroup;
+			children = (
+				8AEE57D82B69C8E500BFDC8B /* Info.plist */,
+				8AEE57C12B66AB2C00BFDC8B /* MAIN */,
+				8AEE57CA2B66B46200BFDC8B /* API */,
+				8AEE57C52B66ADBF00BFDC8B /* CONTEXT */,
+				8AEE57C22B66AB3900BFDC8B /* VIEW */,
+				8AEE57CD2B68189F00BFDC8B /* RESOURCES */,
+				8AEE57B72B66A9D400BFDC8B /* Assets.xcassets */,
+				8AEE57B92B66A9D400BFDC8B /* Preview Content */,
+			);
+			path = TakeHomeExercise;
+			sourceTree = "<group>";
+		};
+		8AEE57B92B66A9D400BFDC8B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8AEE57BA2B66A9D400BFDC8B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8AEE57C12B66AB2C00BFDC8B /* MAIN */ = {
+			isa = PBXGroup;
+			children = (
+				8AEE57B32B66A9D300BFDC8B /* TakeHomeExerciseApp.swift */,
+				8AEE57B52B66A9D300BFDC8B /* MainView.swift */,
+			);
+			path = MAIN;
+			sourceTree = "<group>";
+		};
+		8AEE57C22B66AB3900BFDC8B /* VIEW */ = {
+			isa = PBXGroup;
+			children = (
+				8AEE57C32B66ABEE00BFDC8B /* SignInView.swift */,
+				8AEE57D22B687F5900BFDC8B /* MeetingView.swift */,
+				8AEE57D42B699A8500BFDC8B /* MeetingListView.swift */,
+				8AEE57D62B69A36A00BFDC8B /* MeetingDetailsView.swift */,
+			);
+			path = VIEW;
+			sourceTree = "<group>";
+		};
+		8AEE57C52B66ADBF00BFDC8B /* CONTEXT */ = {
+			isa = PBXGroup;
+			children = (
+				8AEE57C62B66AE7900BFDC8B /* UserContext.swift */,
+				8AEE57C82B66AF8300BFDC8B /* MeetingContext.swift */,
+			);
+			path = CONTEXT;
+			sourceTree = "<group>";
+		};
+		8AEE57CA2B66B46200BFDC8B /* API */ = {
+			isa = PBXGroup;
+			children = (
+				8AEE57CB2B66B62900BFDC8B /* AircoverAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		8AEE57CD2B68189F00BFDC8B /* RESOURCES */ = {
+			isa = PBXGroup;
+			children = (
+				8AEE57CE2B68195000BFDC8B /* Resources-Main.swift */,
+				8AEE57D02B68197000BFDC8B /* Resources-Login.swift */,
+			);
+			path = RESOURCES;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8AEE57AF2B66A9D300BFDC8B /* TakeHomeExercise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AEE57BE2B66A9D400BFDC8B /* Build configuration list for PBXNativeTarget "TakeHomeExercise" */;
+			buildPhases = (
+				8AEE57AC2B66A9D300BFDC8B /* Sources */,
+				8AEE57AD2B66A9D300BFDC8B /* Frameworks */,
+				8AEE57AE2B66A9D300BFDC8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TakeHomeExercise;
+			productName = TakeHomeExercise;
+			productReference = 8AEE57B02B66A9D300BFDC8B /* TakeHomeExercise.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8AEE57A82B66A9D300BFDC8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8AEE57AF2B66A9D300BFDC8B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8AEE57AB2B66A9D300BFDC8B /* Build configuration list for PBXProject "TakeHomeExercise" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8AEE57A72B66A9D300BFDC8B;
+			productRefGroup = 8AEE57B12B66A9D300BFDC8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8AEE57AF2B66A9D300BFDC8B /* TakeHomeExercise */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8AEE57AE2B66A9D300BFDC8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AEE57BB2B66A9D400BFDC8B /* Preview Assets.xcassets in Resources */,
+				8AEE57B82B66A9D400BFDC8B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AEE57AC2B66A9D300BFDC8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AEE57CF2B68195000BFDC8B /* Resources-Main.swift in Sources */,
+				8AEE57D12B68197000BFDC8B /* Resources-Login.swift in Sources */,
+				8AEE57C72B66AE7900BFDC8B /* UserContext.swift in Sources */,
+				8AEE57C42B66ABEE00BFDC8B /* SignInView.swift in Sources */,
+				8AEE57B62B66A9D300BFDC8B /* MainView.swift in Sources */,
+				8AEE57CC2B66B62900BFDC8B /* AircoverAPI.swift in Sources */,
+				8AEE57C92B66AF8300BFDC8B /* MeetingContext.swift in Sources */,
+				8AEE57D52B699A8500BFDC8B /* MeetingListView.swift in Sources */,
+				8AEE57D72B69A36A00BFDC8B /* MeetingDetailsView.swift in Sources */,
+				8AEE57B42B66A9D300BFDC8B /* TakeHomeExerciseApp.swift in Sources */,
+				8AEE57D32B687F5900BFDC8B /* MeetingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8AEE57BC2B66A9D400BFDC8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8AEE57BD2B66A9D400BFDC8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8AEE57BF2B66A9D400BFDC8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TakeHomeExercise/Preview Content\"";
+				DEVELOPMENT_TEAM = 6HC576TS8Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TakeHomeExercise/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MOIKA.TakeHomeExercise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8AEE57C02B66A9D400BFDC8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TakeHomeExercise/Preview Content\"";
+				DEVELOPMENT_TEAM = 6HC576TS8Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TakeHomeExercise/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MOIKA.TakeHomeExercise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8AEE57AB2B66A9D300BFDC8B /* Build configuration list for PBXProject "TakeHomeExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AEE57BC2B66A9D400BFDC8B /* Debug */,
+				8AEE57BD2B66A9D400BFDC8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AEE57BE2B66A9D400BFDC8B /* Build configuration list for PBXNativeTarget "TakeHomeExercise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AEE57BF2B66A9D400BFDC8B /* Debug */,
+				8AEE57C02B66A9D400BFDC8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8AEE57A82B66A9D300BFDC8B /* Project object */;
+}
