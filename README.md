@@ -16,6 +16,7 @@ iOS/macOS SwiftUI demonstration project (showcases SwiftUI and RESTful API).
 
 
 
+
 2. UI Elements
 
 Main view is a split screen with a collapsible navigation sidebar and corresponding detailed views.
@@ -27,6 +28,7 @@ The app demonstrates two use cases:
   2. Request Meetings. Input fields for start/end dates to specify a range. A button will initiate request to a "meeting" endpoint. The bottom of the view will display a numbered list of meetings. Each meeting can be expanded to reveal its details.
 
 NOTE: There are more data components defined is the Aircover.ai API. This project is limited for demonstration purpose.
+
 
 
 
