@@ -55,7 +55,7 @@ struct SignInView: View {
     @EnvironmentObject var userContext: UserContext
     
     @State var userName = "takehome@aircover.ai"
-    @State var password = "vsdpysMVByK&ir%@iq7*"
+    @State var password = "contact me at aubyte@gmail.com"
     
     var body: some View {
         GeometryReader { geo in
